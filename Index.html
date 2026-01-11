@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CENTRE ÉVANGÉLIQUE ZOÉ</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.65)
+    ),
+    url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1470&q=80')
+    no-repeat center center fixed;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    padding:30px 15px;
+    color:#fff;
+}
+
+/* ===== TÊTE DE PAGE ===== */
+.header-title{
+    font-size:2rem;
+    font-weight:800;
+    color:#f1c40f;
+    text-align:center;
+    margin-bottom:40px;
+    letter-spacing:1px;
+    text-shadow:1px 1px 6px rgba(0,0,0,0.6);
+}
+
+/* ===== BLOC SPIRITUEL ===== */
+.spiritual-box{
+    max-width:850px;
+    background:rgba(0,0,0,0.55);
+    border:2px solid rgba(241,196,15,0.8);
+    border-radius:18px;
+    padding:35px 30px 45px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+.spiritual-box p{
+    font-size:1.25rem;
+    line-height:1.8;
+    margin-bottom:18px;
+}
+
+.spiritual-box strong{
+    color:#f1c40f;
+    font-weight:700;
+}
+
+.spiritual-quote{
+    font-style:italic;
+    font-size:1.15rem;
+    color:#eaeaea;
+    border-top:1px solid rgba(255,255,255,0.2);
+    padding-top:20px;
+    margin-top:20px;
+}
+
+/* ===== BOUTON CONTINUER ===== */
+.continue-btn{
+    margin-top:30px;
+    display:inline-block;
+    padding:14px 42px;
+    font-size:1.15rem;
+    font-weight:600;
+    color:#000;
+    background:linear-gradient(135deg,#f1c40f,#f39c12);
+    border-radius:30px;
+    text-decoration:none;
+    box-shadow:0 6px 20px rgba(0,0,0,0.5);
+    transition:all 0.3s ease;
+}
+
+.continue-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.7);
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .header-title{
+        font-size:1.6rem;
+    }
+    .spiritual-box p{
+        font-size:1.1rem;
+    }
+    .continue-btn{
+        font-size:1rem;
+        padding:12px 34px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- 1. NOM EN TÊTE -->
+<div class="header-title">
+    CENTRE ÉVANGÉLIQUE ZOÉ
+</div>
+
+<!-- 2. MESSAGE SPIRITUEL STRUCTURÉ -->
+<div class="spiritual-box">
+
+    <p>
+        Suivez les enseignements et la guidance de notre père spirituel
+        <strong>YANNICK MBAY KAYAKEZ</strong>
+        et laissez votre cœur s'ouvrir à la foi et à l'amour du Seigneur.
+    </p>
+
+    <p>
+        Dans ce chemin de foi, que chaque pas soit éclairé par la Parole de Dieu,
+        que chaque décision soit guidée par la sagesse divine,
+        et que votre vie devienne un témoignage vivant de l’amour,
+        de la paix et de la grâce accordée à ceux qui marchent avec le Seigneur.
+    </p>
+
+    <p class="spiritual-quote">
+        « Confie-toi en l’Éternel de tout ton cœur,
+        Il aplanira tes sentiers et affermira ta foi. »
+    </p>
+
+    <!-- BOUTON CONTINUER -->
+    <a href="page2.html" class="continue-btn">Continuer</a>
+
+</div>
+
+</body>
+</html>

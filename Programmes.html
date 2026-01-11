@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nos Programmes – CENTRE ÉVANGÉLIQUE ZOÉ</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+    url('https://images.unsplash.com/photo-1507692049790-1f06b7a1a44d?auto=format&fit=crop&w=1470&q=80')
+    no-repeat center/cover;
+    color:#fff;
+    padding:30px 15px;
+}
+
+/* ===== EN-TÊTE ===== */
+.header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.header h1{
+    font-size:1.9rem;
+    color:#f1c40f;
+    letter-spacing:1px;
+}
+
+/* ===== CONTENEUR ===== */
+.container{
+    max-width:900px;
+    margin:auto;
+    background:rgba(0,0,0,0.6);
+    border:2px solid rgba(241,196,15,0.7);
+    border-radius:20px;
+    padding:40px 35px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* ===== TITRES ===== */
+.section-title{
+    font-size:1.4rem;
+    color:#f9e79f;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+/* ===== PROGRAMMES ===== */
+.program{
+    margin-bottom:30px;
+}
+
+.program p{
+    font-size:1.15rem;
+    line-height:1.8;
+    text-align:center;
+}
+
+/* ===== ADRESSE ===== */
+.address{
+    margin-top:30px;
+    padding-top:25px;
+    border-top:1px solid rgba(241,196,15,0.4);
+    text-align:center;
+}
+
+.address p{
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+/* ===== MESSAGE SPIRITUEL ===== */
+.spiritual-message{
+    margin-top:35px;
+    padding:25px 20px;
+    background:rgba(0,0,0,0.5);
+    border-left:4px solid #f1c40f;
+    border-radius:12px;
+}
+
+.spiritual-message p{
+    font-size:1.15rem;
+    line-height:1.9;
+    text-align:center;
+    font-style:italic;
+}
+
+/* ===== BOUTON RETOUR ===== */
+.back-btn{
+    margin-top:30px;
+    text-align:center;
+}
+
+.back-btn a{
+    display:inline-block;
+    padding:12px 35px;
+    font-size:1.05rem;
+    font-weight:600;
+    color:#000;
+    background:linear-gradient(135deg,#f1c40f,#f39c12);
+    border-radius:30px;
+    text-decoration:none;
+    box-shadow:0 5px 18px rgba(0,0,0,0.5);
+    transition:0.3s ease;
+}
+
+.back-btn a:hover{
+    transform:translateY(-3px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:600px){
+    .header h1{font-size:1.6rem;}
+    .section-title{font-size:1.25rem;}
+    .program p,
+    .address p,
+    .spiritual-message p{font-size:1.05rem;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- EN-TÊTE -->
+<div class="header">
+    <h1>CENTRE ÉVANGÉLIQUE ZOÉ</h1>
+</div>
+
+<!-- CONTENU -->
+<div class="container">
+
+    <!-- PROGRAMMES -->
+    <div class="program">
+        <div class="section-title">Nos Programmes de Culte</div>
+
+        <p>
+            <strong>Lundi à Samedi :</strong><br>
+            Culte de 18h00 à 19h30
+        </p>
+
+        <br>
+
+        <p>
+            <strong>Dimanche – Culte Spécial :</strong><br>
+            Matin : 9h00 à 13h00<br>
+            Soir : 16h00 à 18h00
+        </p>
+    </div>
+
+    <!-- ADRESSE -->
+    <div class="address">
+        <div class="section-title">Adresse de l’Église</div>
+        <p>
+            L’église est située en République Démocratique du Congo,<br>
+            Province du Haut-Katanga,<br>
+            Territoire de Sakania,<br>
+            Village de Mokambo.
+        </p>
+    </div>
+
+    <!-- MESSAGE SPIRITUEL -->
+    <div class="spiritual-message">
+        <p>
+            Venez tels que vous êtes et laissez le Seigneur
+            renouveler votre force, restaurer votre espérance
+            et affermir votre foi.  
+            Ensemble dans la prière et la louange,
+            nous bâtissons une communauté fondée sur l’amour,
+            la vérité et la présence vivante de Dieu.
+        </p>
+    </div>
+
+    <!-- RETOUR -->
+    <div class="back-btn">
+        <a href="page2.html">Retour</a>
+    </div>
+
+</div>
+
+</body>
+</html>

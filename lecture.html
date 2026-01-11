@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lecture Biblique – CENTRE ÉVANGÉLIQUE ZOÉ</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+    url('https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1470&q=80')
+    no-repeat center/cover;
+    color:#fff;
+    padding:30px 15px;
+}
+
+/* ===== EN-TÊTE ===== */
+.header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.header h1{
+    font-size:1.9rem;
+    color:#f1c40f;
+}
+
+/* ===== CONTENEUR ===== */
+.container{
+    max-width:950px;
+    margin:auto;
+    background:rgba(0,0,0,0.6);
+    border:2px solid rgba(241,196,15,0.7);
+    border-radius:20px;
+    padding:40px 35px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* ===== TITRE ===== */
+.section-title{
+    font-size:1.4rem;
+    color:#f9e79f;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+/* ===== VERSETS ===== */
+.verse-box{
+    margin-bottom:25px;
+    padding:20px 22px;
+    background:rgba(0,0,0,0.5);
+    border-left:4px solid #f1c40f;
+    border-radius:12px;
+}
+
+.verse-box p{
+    font-size:1.15rem;
+    line-height:1.8;
+    font-style:italic;
+}
+
+.verse-box span{
+    display:block;
+    margin-top:10px;
+    font-size:1rem;
+    color:#f9e79f;
+    text-align:right;
+}
+
+/* ===== BIBLE LINK ===== */
+.bible-link{
+    margin-top:35px;
+    text-align:center;
+    padding:25px 20px;
+    background:rgba(0,0,0,0.5);
+    border-radius:15px;
+}
+
+.bible-link p{
+    font-size:1.15rem;
+    margin-bottom:20px;
+    line-height:1.8;
+}
+
+.bible-link a{
+    display:inline-block;
+    padding:14px 40px;
+    font-size:1.05rem;
+    font-weight:600;
+    color:#000;
+    background:linear-gradient(135deg,#f1c40f,#f39c12);
+    border-radius:30px;
+    text-decoration:none;
+    box-shadow:0 6px 18px rgba(0,0,0,0.5);
+    transition:0.3s ease;
+}
+
+.bible-link a:hover{
+    transform:translateY(-3px);
+}
+
+/* ===== BOUTON ===== */
+.back-btn{
+    margin-top:30px;
+    text-align:center;
+}
+
+.back-btn a{
+    color:#f1c40f;
+    text-decoration:none;
+    font-weight:600;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:600px){
+    .header h1{font-size:1.6rem;}
+    .section-title{font-size:1.25rem;}
+    .verse-box p{font-size:1.05rem;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- EN-TÊTE -->
+<div class="header">
+    <h1>CENTRE ÉVANGÉLIQUE ZOÉ</h1>
+</div>
+
+<!-- CONTENU -->
+<div class="container">
+
+    <div class="section-title">Lecture Biblique Essentielle</div>
+
+    <!-- VERSETS -->
+    <div class="verse-box">
+        <p>
+            « Car Dieu a tant aimé le monde qu’il a donné son Fils unique,
+            afin que quiconque croit en lui ne périsse point,
+            mais qu’il ait la vie éternelle. »
+        </p>
+        <span>Jean 3:16</span>
+    </div>
+
+    <div class="verse-box">
+        <p>
+            « L’Éternel est mon berger : je ne manquerai de rien. »
+        </p>
+        <span>Psaume 23:1</span>
+    </div>
+
+    <div class="verse-box">
+        <p>
+            « Confie-toi en l’Éternel de tout ton cœur,
+            et ne t’appuie pas sur ta sagesse. »
+        </p>
+        <span>Proverbes 3:5</span>
+    </div>
+
+    <div class="verse-box">
+        <p>
+            « Je puis tout par celui qui me fortifie. »
+        </p>
+        <span>Philippiens 4:13</span>
+    </div>
+
+    <!-- LIEN BIBLE -->
+    <div class="bible-link">
+        <p>
+            Prenez du temps chaque jour pour lire la Parole de Dieu.
+            Vous pouvez consulter tous les livres et chapitres
+            de la Bible à tout moment.
+        </p>
+
+        <a href="https://www.bible.com/fr" target="_blank">
+            Ouvrir la Bible
+        </a>
+    </div>
+
+    <!-- RETOUR -->
+    <div class="back-btn">
+        <a href="page2.html">← Retour</a>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CENTRE ÉVANGÉLIQUE ZOÉ</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+    url('https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=1470&q=80')
+    no-repeat center/cover;
+    color:#fff;
+    padding:30px 15px;
+}
+
+/* ===== EN-TÊTE ===== */
+.header{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.header h1{
+    font-size:2rem;
+    color:#f1c40f;
+    letter-spacing:1px;
+}
+
+/* ===== CONTENEUR ===== */
+.container{
+    max-width:1000px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+/* ===== CARTE ===== */
+.card{
+    background:rgba(0,0,0,0.6);
+    border:2px solid rgba(241,196,15,0.7);
+    border-radius:18px;
+    padding:30px 22px 35px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.6);
+    transition:transform 0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* ===== BOUTON ===== */
+.card a{
+    display:inline-block;
+    margin-bottom:18px;
+    padding:12px 30px;
+    font-size:1.05rem;
+    font-weight:700;
+    text-decoration:none;
+    color:#000;
+    background:linear-gradient(135deg,#f1c40f,#f39c12);
+    border-radius:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+/* ===== TEXTE ===== */
+.card p{
+    font-size:1.05rem;
+    line-height:1.7;
+    color:#f0f0f0;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:600px){
+    .header h1{
+        font-size:1.6rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- EN-TÊTE -->
+<div class="header">
+    <h1>CENTRE ÉVANGÉLIQUE ZOÉ</h1>
+</div>
+
+<!-- CONTENU -->
+<div class="container">
+
+    <!-- NOS PROGRAMMES -->
+    <div class="card">
+        <a href="programmes.html">NOS PROGRAMMES</a>
+        <p>
+            Découvrez nos programmes spirituels, nos cultes,
+            nos rencontres de prière et nos moments de communion
+            pour grandir ensemble dans la foi et l’amour du Seigneur.
+        </p>
+    </div>
+
+    <!-- LECTURE -->
+    <div class="card">
+        <a href="lecture.html">LECTURE</a>
+        <p>
+            Approfondissez votre connaissance de la Parole de Dieu
+            à travers des lectures bibliques sélectionnées
+            pour nourrir votre âme et fortifier votre esprit.
+        </p>
+    </div>
+
+    <!-- MÉDITATION -->
+    <div class="card">
+        <a href="meditation.html">MÉDITATION</a>
+        <p>
+            Prenez un temps de calme et de réflexion spirituelle
+            afin de laisser le Saint-Esprit transformer votre cœur
+            et renouveler votre foi chaque jour.
+        </p>
+    </div>
+
+    <!-- ENSEIGNEMENT -->
+    <div class="card">
+        <a href="enseignement.html">ENSEIGNEMENT</a>
+        <p>
+            Recevez des enseignements bibliques profonds
+            pour comprendre la volonté de Dieu
+            et marcher selon Sa parole avec sagesse et vérité.
+        </p>
+    </div>
+
+    <!-- CONTACT PÈRE SPIRITUEL -->
+    <div class="card">
+        <a href="https://wa.me/243993585711" target="_blank">
+            CONTACTEZ NOTRE PÈRE SPIRITUEL
+        </a>
+        <p>
+            Pour une prière, un conseil spirituel
+            ou un accompagnement personnel,
+            contactez directement notre père spirituel via WhatsApp.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
